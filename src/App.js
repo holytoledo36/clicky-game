@@ -70,7 +70,7 @@ class App extends Component {
                 />
                 <Jumbotron />
                 <div className="wrapper">
-                    {this.state.fish.map(fish => (
+                    {this.state.balls.map(balls => (
                         <FriendCard
                             imageClick={this.imageClick}
                             id={balls.id}
